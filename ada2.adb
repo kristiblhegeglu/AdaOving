@@ -1,9 +1,9 @@
--with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Numerics.Float_Random;
- -use Ada.Text_IO, Ada.Integer_Text_IO, Ada.Numerics.Float_Random;
- -
+with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Numerics.Float_Random;
+use Ada.Text_IO, Ada.Integer_Text_IO, Ada.Numerics.Float_Random;
+
  --- (Ada tabs = 3 spaces)
- -
- -procedure ada2 is
+
+procedure ada2 is
      -- Wait_Until_Aborted : exception;
    Count_Failed : exception; -- Exception to be raised when counting fails
    Gen : Generator; -- Random number generator
@@ -129,4 +129,4 @@
 
 begin
    Reset(Gen); -- Seed the random number generator
- -end ada2;
+end ada2;
